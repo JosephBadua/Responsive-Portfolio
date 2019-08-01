@@ -67,7 +67,7 @@ table {
     margin: auto;
 }
 
-#name-header {
+.name-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background: #4aaaa5;
@@ -94,7 +94,7 @@ table {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -30px;
     font-size: 19px;
-    width: 300px;
+    width: 250px;
     text-decoration: none;
     float: right;
     clear: both;
@@ -320,15 +320,23 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
     #header-div {
-        width: 90%;
-        position: sticky;
+        width: 980px;
+        position: absolute;
+        top: -50px;
+    }
+    .name-header {
+        margin-left: 50px;
+    }
+    .hr-top {
+        width: 980px;
     }
     .container {
-        width: 100%;
+        width: 980px;
         position: sticky;
+        height: 70px;
     }
     .biglink {
-        margin-left:40px;
+        margin-left: -40px;
     }
     #link-block {
         word-spacing: -1px;
@@ -337,7 +345,7 @@ input[type=submit] {
     .main-div {
         width: 60%;
         position: absolute;
-        top: 60px;
+        top: 20px;
         left: 50px;
     }
     .main-div-portfolio{
@@ -354,9 +362,12 @@ input[type=submit] {
         width: 600px;
     }
     .biglink4 {
-        margin-left: 50px;
+        margin-left: -40px;
     }
     .biglink3 {
-        margin-left: 60px;
+        margin-left: -40px;
     }
+}
+@media screen and (max-width: 768px) {
+
 }
