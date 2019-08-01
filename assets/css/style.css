@@ -61,7 +61,7 @@ table {
     margin: auto;
 }
 
-#container {
+.container {
     width: 100%;
     background: white;
     margin: auto;
@@ -78,6 +78,9 @@ table {
     width: 350px;
     color: white;
     float: left;
+}
+.biglink {
+    width: 100%;
 }
 
 #link-block {
@@ -233,6 +236,9 @@ input[type=submit] {
     color: white;
     border: none
 }
+.float {
+    float: left;
+}
 
 .box-a {
     border: 1px solid black;
@@ -240,7 +246,6 @@ input[type=submit] {
     height: 250px;
     margin-left: 10px;
     margin-top: 20px;
-    margin-right: 10px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -251,48 +256,45 @@ input[type=submit] {
     height: 250px;
     margin-left: 10px;
     margin-top: 20px;
-    margin-right: 200px;
     margin-bottom: 40px;
     text-align: center;
 }
 
 #box1 {
-    margin-left: 33%;
-    background-image: url('../images/headofexodia.png');
+    background-image: url('../images/plant_gang.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-    clear: both;
+    float: inherit;
 }
 
 #box2 {
-    background-image: url('../images/rightarmofexodia.png');
+    background-image: url('../images/warp_pipe.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-    float: left;
     margin-left: 60px;
+    float: inherit;
 }
 
 #box3 {
-    background-image: url('../images/leftarmofexodia.png');
+    background-image: url('../images/plant_shaft.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-    float: left;
-    
+    float: inherit;
 }
 
 #box4 {
-    background-image: url('../images/rightlegofexodia.png');
+    background-image: url('../images/plant_shaft.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-    float: left;
     margin-left: 60px;
+    float: inherit;
 }
 
 #box5 {
-    background-image: url('../images/leftlegofexodia.png');
+    background-image: url("../images/plant_shaft.png");
     background-size:100% 100%;
     background-repeat: no-repeat;
-    float: left;
+    float: inherit;
 }
 .box-title {
     border: none;
@@ -339,12 +341,17 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
     #header-div {
         width: 90%;
+        position: sticky;
     }
-    #container {
+    .container {
         width: 100%;
+    }
+    .biglink {
+        margin-left:70px;
     }
     #link-block {
         word-spacing: -5px;
+
     }
     .main-div {
         width: 60%;
