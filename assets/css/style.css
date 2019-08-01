@@ -1,0 +1,337 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.body-about {
+   background: #f3f3f3;
+}
+
+#header-div {
+    background: white;
+    height: 100px;
+    padding-top: 20px;
+    width: 1060px;
+    margin: auto;
+}
+
+#container {
+    width: 100%;
+    background: white;
+    margin: auto;
+}
+
+#name-header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 30px;
+    padding-bottom: 19px;
+    padding-top: 15px;
+    font-size: 36px;
+    width: 350px;
+    color: white;
+    float: left;
+}
+
+#link-block {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -30px;
+    font-size: 19px;
+    width: 400px;
+    text-decoration: none;
+    float: right;
+    clear: both;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+
+a:focus {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;      
+}
+
+a:hover {
+    text-decoration: none;
+    color: cyan ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+a:active {
+    text-decoration: none;
+    color: pink ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+.main-div {
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 116px;
+    background: white;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: thin;
+}
+
+.main-div-portfolio {
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: white;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: thin;
+    overflow: hidden;
+}
+
+#div-index {
+    margin-top: 90px;
+    padding-bottom: 48px;
+}
+
+.hr-top {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+}
+.main-header {
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #4aaaa5;
+}
+#inside-main {
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+#profile {
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    float: left;
+}
+
+.paragraph {
+    color: darkslategray ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.thin-blue {
+    border-style: solid;
+    border-width: medium;
+    border-color: cadetblue;
+    width: 100%;
+    bottom: 70px;
+    position: fixed;
+}
+.footer-div {
+    text-align: center;
+    background: #666666;
+    padding-top: 35px;
+    padding-bottom: 22px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+input[type=text] {
+    width: 100%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1.5px solid #4aaaa5;
+    outline: none;
+}
+
+form {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 960px;
+    height: 250px;
+    resize: none;
+    margin-bottom: 20px;    
+    font-size: 20px;
+    color: black;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    background: #4aaaa5;
+    color: white;
+    border: none
+}
+
+.box-a {
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.box-b {
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#box1 {
+    margin-left: 33%;
+    background-image: url('../images/headofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+#box2 {
+    background-image: url('../images/rightarmofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 60px;
+}
+
+#box3 {
+    background-image: url('../images/leftarmofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    
+}
+
+#box4 {
+    background-image: url('../images/rightlegofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 60px;
+}
+
+#box5 {
+    background-image: url('../images/leftlegofexodia.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    float: left;
+}
+.box-title {
+    border: none;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    background:#4aaaa5;
+    margin-top: 150px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#boxtitle1 {
+    text-align: center;
+    font-size:20px; 
+    margin-top: 160px; 
+}
+#boxtitle2 {
+    text-align: center;
+    font-size:25px; 
+    padding-top: 2px;
+    margin-top: 180px; 
+}
+#boxtitle3 {
+    text-align: center;
+    font-size:25px;
+    padding-top: 2px;
+    margin-top: 180px; 
+}
+#boxtitle4 {
+    text-align: center;
+    font-size:25px;
+    padding-top: 2px;
+    margin-top: 180px; 
+}
+#boxtitle5 {
+    text-align: center;
+    font-size:25px;
+    padding-top: 2px;
+    margin-top: 180px; 
+}
