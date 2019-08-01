@@ -82,13 +82,19 @@ table {
 .biglink {
     width: 100%;
 }
+.biglink3 {
+    width: 100%;
+}
+.biglink4 {
+    width:100%;
+}
 
 #link-block {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -30px;
     font-size: 19px;
-    width: 400px;
+    width: 300px;
     text-decoration: none;
     float: right;
     clear: both;
@@ -119,6 +125,20 @@ a:active {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
 .main-div {
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 960px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 116px;
+    background: white;
+    border-color: gainsboro;
+    border-style: solid;
+    border-width: thin;
+}
+.contact-div {
     padding-top: 40px;
     padding-right: 50px;
     padding-left: 50px;
@@ -164,6 +184,7 @@ a:active {
     font-size: 35px;
     color: #4aaaa5;
 }
+
 #inside-main {
     width: 100%;
     margin-bottom: 15px;
@@ -250,16 +271,6 @@ input[type=submit] {
     text-align: center;
 }
 
-.box-b {
-    border: 1px solid black;
-    width: 250px;
-    height: 200px;
-    margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
 #box1 {
     background-image: url('../images/plant_gang.png');
     background-size:100% 100%;
@@ -271,7 +282,6 @@ input[type=submit] {
     background-image: url('../images/warp_pipe.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-    margin-left: 60px;
     float: inherit;
 }
 
@@ -286,7 +296,6 @@ input[type=submit] {
     background-image: url('../images/plant_shaft.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
-    margin-left: 60px;
     float: inherit;
 }
 
@@ -303,7 +312,7 @@ input[type=submit] {
     font-size: 20px;
     background:mediumseagreen;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 201px;
     padding-top: 15px;
     padding-bottom: 15px;
     color: rgb(28, 73, 48)
@@ -316,12 +325,13 @@ input[type=submit] {
     }
     .container {
         width: 100%;
+        position: sticky;
     }
     .biglink {
-        margin-left:70px;
+        margin-left:40px;
     }
     #link-block {
-        word-spacing: -5px;
+        word-spacing: -1px;
 
     }
     .main-div {
@@ -334,5 +344,19 @@ input[type=submit] {
         position: absolute;
         left: 50px;
         width: 60%;
+    }
+    .contact-div {
+        width: 60%;
+        position: absolute;
+        left: 50px;
+    }
+    textarea {
+        width: 600px;
+    }
+    .biglink4 {
+        margin-left: 50px;
+    }
+    .biglink3 {
+        margin-left: 60px;
     }
 }
