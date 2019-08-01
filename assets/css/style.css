@@ -57,7 +57,7 @@ table {
     background: white;
     height: 100px;
     padding-top: 20px;
-    width: 1060px;
+    width:54%;
     margin: auto;
 }
 
@@ -334,4 +334,22 @@ input[type=submit] {
     font-size:25px;
     padding-top: 2px;
     margin-top: 180px; 
+}
+
+@media screen and (max-width: 980px) {
+    #header-div {
+        width: 90%;
+    }
+    #container {
+        width: 100%;
+    }
+    #link-block {
+        word-spacing: -5px;
+    }
+    .main-div {
+        width: 60%;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
 }
