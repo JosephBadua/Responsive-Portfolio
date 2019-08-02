@@ -67,6 +67,12 @@ table {
     margin: auto;
 }
 
+#container-contact {
+    width: 100%;
+    background: white;
+    margin: auto;
+}
+
 .name-header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
@@ -389,22 +395,29 @@ input[type=submit] {
         position: absolute;
         position: fixed;
         z-index: 1000;
-        top: -50px;
+        height: 100px;
     }
     .name-header {
-        margin-left: 50px;
-        height: 36px;
+        margin-left: 20px;
+        height: 50px;
+        padding: 24.9px;
         width: 250px;
-        font-size: 1.9rem;
+        font-size: 2.5rem;
     }
     .hr-top {
         width: 768px;
         position: fixed;
+        top: 100px;
     }
     .container {
         width: 768px;
+        position: fixed;
+        height: 100px;
+    }
+    #container-contact {
+        width: 768px;
         position: sticky;
-        height: 70px;
+        height: 100px;
     }
     .biglink {
         margin-left: -10px;
@@ -414,28 +427,31 @@ input[type=submit] {
         font-size: 1rem;
     }
     .main-div {
-        width: 600px;
+        width: 630px;
         position: absolute;
         top: 20px;
+        left: 20px;
         height: 380px;
+        margin-bottom: 100px;
         overflow: hidden;
     }
     .main-div-portfolio{
         position: absolute;
-        left: 50px;
+        left: 20px;
         width: 60%;
+        top: 80px;
         z-index: -1;
     }
     .contact-div {
-        width: 75%;
-        position: relative;
-        left: 50px;
+        width: 80%;
+        position: absolute;
+        left: 20px;
         margin-bottom: 400px;
         z-index: -1;  
     }
     textarea {
         border: 1px solid #4aaaa5;
-        width: 580px;
+        width: 620px;
         height: 200px;
     }
     .biglink4 {
