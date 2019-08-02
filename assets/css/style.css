@@ -369,5 +369,56 @@ input[type=submit] {
     }
 }
 @media screen and (max-width: 768px) {
-
+    #header-div {
+        width: 768px;
+        position: absolute;
+        top: -50px;
+    }
+    .name-header {
+        margin-left: 50px;
+        height: 36px;
+        width: 250px;
+        font-size: 1.9rem;
+    }
+    .hr-top {
+        width: 768px;
+    }
+    .container {
+        width: 768px;
+        position: sticky;
+        height: 70px;
+    }
+    .biglink {
+        margin-left: -10px;
+    }
+    #link-block {
+        word-spacing: -1px;
+        font-size: 1rem;
+    }
+    .main-div {
+        width: 600px;
+        position: absolute;
+        top: 20px;
+        height: 380px;
+        overflow: hidden;
+    }
+    .main-div-portfolio{
+        position: absolute;
+        left: 50px;
+        width: 60%;
+    }
+    .contact-div {
+        width: 60%;
+        position: absolute;
+        left: 50px;
+    }
+    textarea {
+        width: 600px;
+    }
+    .biglink4 {
+        margin-left: -40px;
+    }
+    .biglink3 {
+        margin-left: -40px;
+    }
 }
