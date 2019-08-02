@@ -462,3 +462,115 @@ input[type=submit] {
         margin-left: -40px;
     }
 }
+@media screen and (max-width: 640px) {
+    #header-div {
+        width: 640px;
+        position: absolute;
+        position: fixed;
+        z-index: 1000;
+        height: 160px;
+    }
+    .name-header {
+        margin: auto;
+        margin-left: -10px;
+        margin-top:20px;
+        height: 40px;
+        width: 640px;
+        font-size: 2.5em;
+    }
+
+    .hr-top {
+        width: 640px;
+        position: fixed;
+        top: 130px;
+    }
+    .container {
+        width: 640px;
+        position: fixed;
+        height: 100px;
+    }
+    #container-contact {
+        width: 640px;
+        position: fixed;
+        height: 100px;
+    }
+    .biglink {
+        width: 640px;
+        margin-left: 10px;
+    }
+    #link-block {
+        margin-top: 10px;
+        width: 640px;
+        word-spacing: -1px;
+        font-size: 1.4rem;
+    }
+    .main-div {
+        width: 500px;
+        position: absolute;
+        top: 70px;
+        left: 25px;
+        height: 750px;
+        margin-bottom: 100px;
+
+    }
+    .main-div-portfolio{
+        position: absolute;
+        left: 20px;
+        width: 500px;
+        top: 80px;
+        z-index: -1;
+    }
+    .contact-div {
+        width: 80%;
+        position: absolute;
+        left: 20px;
+        margin-top: 150px;
+        margin-bottom: 400px;
+        z-index: -1;  
+    }
+    textarea {
+        border: 1px solid #4aaaa5;
+        width: 550px;
+        height: 200px;
+    }
+    .biglink4 {
+        margin-left: -40px;
+    }
+    .biglink3 {
+        margin-left: -40px;
+    }
+    .paragraph {
+        clear: both;
+    }
+    #profile {
+        width: 500px;
+    }
+    
+    .box-a {
+       
+    }
+    #box1 {
+        
+    }
+
+    #box2 {
+       
+    }
+
+    #box3 {
+       
+    }
+
+    #box4 {
+        
+    }
+    #box5 {
+        
+    }
+    .box-title {
+        
+    }
+    .box-title3 {
+       
+    }
+}
