@@ -279,7 +279,7 @@ input[type=submit] {
 }
 
 #box2 {
-    background-image: url('../images/warp_pipe.png');
+    background-image: url('../images/plant_shaft.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
     float: inherit;
@@ -317,18 +317,30 @@ input[type=submit] {
     padding-bottom: 15px;
     color: rgb(28, 73, 48)
 }
-
+.box-title3 {
+    background-image: url("../images/top_pipe.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+   
+}
 @media screen and (max-width: 980px) {
     #header-div {
         width: 980px;
         position: absolute;
         top: -50px;
+        position: fixed;
+        z-index: 1000;
     }
     .name-header {
         margin-left: 50px;
     }
     .hr-top {
         width: 980px;
+        position: fixed;
     }
     .container {
         width: 980px;
@@ -347,16 +359,19 @@ input[type=submit] {
         position: absolute;
         top: 20px;
         left: 50px;
+        z-index: -1;
     }
     .main-div-portfolio{
         position: absolute;
         left: 50px;
         width: 60%;
+        z-index: -1;
     }
     .contact-div {
         width: 60%;
         position: absolute;
         left: 50px;
+        z-index: -1;
     }
     textarea {
         width: 600px;
@@ -372,6 +387,8 @@ input[type=submit] {
     #header-div {
         width: 768px;
         position: absolute;
+        position: fixed;
+        z-index: 1000;
         top: -50px;
     }
     .name-header {
@@ -382,6 +399,7 @@ input[type=submit] {
     }
     .hr-top {
         width: 768px;
+        position: fixed;
     }
     .container {
         width: 768px;
@@ -406,14 +424,19 @@ input[type=submit] {
         position: absolute;
         left: 50px;
         width: 60%;
+        z-index: -1;
     }
     .contact-div {
-        width: 60%;
-        position: absolute;
+        width: 75%;
+        position: relative;
         left: 50px;
+        margin-bottom: 400px;
+        z-index: -1;  
     }
     textarea {
-        width: 600px;
+        border: 1px solid #4aaaa5;
+        width: 580px;
+        height: 200px;
     }
     .biglink4 {
         margin-left: -40px;
