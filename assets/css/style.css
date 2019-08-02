@@ -399,7 +399,7 @@ input[type=submit] {
     }
     .name-header {
         margin-left: 20px;
-        height: 55px;
+        height: 50px;
         padding: 24.9px;
         width: 250px;
         font-size: 2.5rem;
@@ -416,7 +416,7 @@ input[type=submit] {
     }
     #container-contact {
         width: 768px;
-        position: sticky;
+        position: fixed;
         height: 100px;
     }
     .biglink {
@@ -446,6 +446,7 @@ input[type=submit] {
         width: 80%;
         position: absolute;
         left: 20px;
+        margin-top: 150px;
         margin-bottom: 400px;
         z-index: -1;  
     }
