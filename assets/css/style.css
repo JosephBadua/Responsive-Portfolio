@@ -500,45 +500,44 @@ input[type=submit] {
 }
 @media screen and (max-width: 640px) {
     #header-div {
-        width: 640px;
-        position: absolute;
-        position: fixed;
-        z-index: 1000;
-        height: 160px;
+        width: 100%;
+        height: 130px;
+        position: static;
+
     }
     .name-header {
         margin: auto;
-        margin-left: -10px;
-        margin-top:20px;
+        margin-top: -20px;
         height: 40px;
-        width: 640px;
+        width: 100%;
         font-size: 2.5em;
+        position: static;
     }
 
     .hr-top {
-        width: 640px;
-        position: fixed;
-        top: 130px;
+        width: 100%;
+        position: static;
     }
     .container {
-        width: 640px;
-        position: fixed;
-        height: 100px;
+        margin: auto;
+        height: 40px;
+        width: 100%;
     }
     #container-contact {
-        width: 640px;
-        position: fixed;
-        height: 100px;
+        margin: auto;
+        height: 40px;
+        width: 100%;
+        position: static;
     }
     .biglink {
-        width: 640px;
-        margin-left: 10px;
+        width: 95%;
     }
     #link-block {
         margin-top: 10px;
-        width: 640px;
+        width: 95%;
         word-spacing: -1px;
         font-size: 1.4rem;
+        position: static;
     }
     .main-div {
         width: 500px;
@@ -553,27 +552,31 @@ input[type=submit] {
         position: absolute;
         left: 20px;
         width: 500px;
-        top: 80px;
+        top: 150px;
         z-index: -1;
     }
     .contact-div {
-        width: 80%;
+        width: 500px;
         position: absolute;
         left: 20px;
-        margin-top: 150px;
+        margin-top: 20px;
         margin-bottom: 400px;
         z-index: -1;  
     }
     textarea {
         border: 1px solid #4aaaa5;
-        width: 550px;
+        width: 500px;
         height: 200px;
     }
     .biglink4 {
-        margin-left: -40px;
+        margin: auto;
+        width: 100%;
+            position: static;
     }
     .biglink3 {
-        margin-left: 10px;
+        margin: auto;
+        width: 100%;
+        position: static;
     }
     .paragraph {
         clear: both;
@@ -604,5 +607,12 @@ input[type=submit] {
     width: 500px;
     height: 400px;
     margin-top: -65px;
+    
+    }
+    .thin-blue {
+        width: 100%;
+    }
+    .footer-div {
+        width: 100%;
     }
 }
