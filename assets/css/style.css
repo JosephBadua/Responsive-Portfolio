@@ -100,12 +100,16 @@ table {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: -30px;
     font-size: 19px;
-    width: 250px;
+    width: 350px;
     text-decoration: none;
     float: right;
     clear: both;
 }
 
+h2{
+    display: inline;
+    color: darkgray;
+}
 a:link, a:visited {
     text-decoration: none;
     color: black;
@@ -275,13 +279,33 @@ input[type=submit] {
     margin-top: 20px;
     margin-bottom: 40px;
     text-align: center;
+    z-index: 50;
+}
+.box-ab {
+    border: none;
+    text-align: center;
+    z-index: -120;
+}
+#box10 {
+    background-image: url("../images/plant_gang.png");
+    position: relative;
+    z-index: -100;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center;
+    overflow: hidden;
+    animation: plant 2s infinite alternate;
+    
 }
 
 #box1 {
-    background-image: url('../images/plant_gang.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
     float: inherit;
+    position: relative;
+    background-position: center;
+    z-index: 100;
 }
 
 #box2 {
@@ -289,6 +313,8 @@ input[type=submit] {
     background-size:100% 100%;
     background-repeat: no-repeat;
     float: inherit;
+    position: relative;
+    z-index: 110;
 }
 
 #box3 {
@@ -296,6 +322,8 @@ input[type=submit] {
     background-size:100% 100%;
     background-repeat: no-repeat;
     float: inherit;
+    position: relative;
+    z-index: 120;
 }
 
 #box4 {
@@ -303,13 +331,17 @@ input[type=submit] {
     background-size:100% 100%;
     background-repeat: no-repeat;
     float: inherit;
+    position: relative;
+    z-index: 130;
 }
 
 #box5 {
-    background-image: url("../images/plant_shaft.png");
+    background-image: url('../images/plant_shaft.png');
     background-size:100% 100%;
     background-repeat: no-repeat;
     float: inherit;
+    position: relative;
+    z-index: 150;
 }
 .box-title {
     border: none;
@@ -321,7 +353,8 @@ input[type=submit] {
     margin-top: 201px;
     padding-top: 15px;
     padding-bottom: 15px;
-    color: rgb(28, 73, 48)
+    color: rgb(28, 73, 48);
+    z-index: 160;
 }
 .box-title3 {
     background-image: url("../images/top_pipe.png");
@@ -330,8 +363,11 @@ input[type=submit] {
     border: none;
     width: 100%;
     height: 100px;
-    margin-top: 200px;
-   
+    z-index: 170;
+}
+@keyframes plant {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(150px); }
 }
 @media screen and (max-width: 980px) {
     #header-div {
@@ -354,7 +390,7 @@ input[type=submit] {
         height: 70px;
     }
     .biglink {
-        margin-left: -40px;
+        margin-left: -10px;
     }
     #link-block {
         word-spacing: -1px;
@@ -383,10 +419,10 @@ input[type=submit] {
         width: 600px;
     }
     .biglink4 {
-        margin-left: -40px;
+        margin-left: -10px;
     }
     .biglink3 {
-        margin-left: -40px;
+        margin-left: -10px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -420,7 +456,7 @@ input[type=submit] {
         height: 100px;
     }
     .biglink {
-        margin-left: -10px;
+        margin-left: 25px;
     }
     #link-block {
         word-spacing: -1px;
@@ -438,7 +474,7 @@ input[type=submit] {
     .main-div-portfolio{
         position: absolute;
         left: 20px;
-        width: 60%;
+        width: 550px;
         top: 80px;
         z-index: -1;
     }
@@ -456,10 +492,10 @@ input[type=submit] {
         height: 200px;
     }
     .biglink4 {
-        margin-left: -40px;
+        margin-left: 10px;
     }
     .biglink3 {
-        margin-left: -40px;
+        margin-left: 20px;
     }
 }
 @media screen and (max-width: 640px) {
@@ -537,7 +573,7 @@ input[type=submit] {
         margin-left: -40px;
     }
     .biglink3 {
-        margin-left: -40px;
+        margin-left: 10px;
     }
     .paragraph {
         clear: both;
@@ -546,31 +582,27 @@ input[type=submit] {
         width: 500px;
     }
     
-    .box-a {
-       
+   .box-a {
+   height: 350px;
+   width: 500px;
     }
-    #box1 {
-        
+    .box-ab {
+    border: none;
+    text-align: center;
+    z-index: -120;
     }
-
-    #box2 {
-       
-    }
-
-    #box3 {
-       
-    }
-
-    #box4 {
-        
-    }
-    #box5 {
-        
+    #box10 {
+    height: 400px;
+    
     }
     .box-title {
-        
+    width: 500px;
+    height: 40px;
+    margin-top: -65px;
     }
     .box-title3 {
-       
+    width: 500px;
+    height: 400px;
+    margin-top: -65px;
     }
 }
