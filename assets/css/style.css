@@ -499,29 +499,35 @@ input[type=submit] {
     }
 }
 @media screen and (max-width: 640px) {
+    .body-about {
+        width: 640px;
+        margin: 0px;
+    }
     #header-div {
         width: 100%;
         height: 130px;
-        position: static;
-
+        margin-top: 50px;
+        position: absolute;
     }
     .name-header {
         margin: auto;
         margin-top: -20px;
         height: 40px;
-        width: 100%;
+        width: 590.22px;
         font-size: 2.5em;
         position: static;
     }
 
     .hr-top {
-        width: 100%;
-        position: static;
+        width: 638px;
+        position: absolute;
+        top: 150px;
     }
     .container {
         margin: auto;
         height: 40px;
         width: 100%;
+        position: static;
     }
     #container-contact {
         margin: auto;
@@ -530,11 +536,12 @@ input[type=submit] {
         position: static;
     }
     .biglink {
-        width: 95%;
+        width: 90%;
+        margin-left: 40px;
     }
     #link-block {
         margin-top: 10px;
-        width: 95%;
+        width: 100%;
         word-spacing: -1px;
         font-size: 1.4rem;
         position: static;
@@ -542,7 +549,7 @@ input[type=submit] {
     .main-div {
         width: 500px;
         position: absolute;
-        top: 70px;
+        top: 90px;
         left: 25px;
         height: 750px;
         margin-bottom: 100px;
@@ -559,7 +566,7 @@ input[type=submit] {
         width: 500px;
         position: absolute;
         left: 20px;
-        margin-top: 20px;
+        margin-top: 150px;
         margin-bottom: 400px;
         z-index: -1;  
     }
@@ -569,14 +576,12 @@ input[type=submit] {
         height: 200px;
     }
     .biglink4 {
-        margin: auto;
-        width: 100%;
-            position: static;
+        width: 90%;
+        margin-left: 40px;
     }
     .biglink3 {
-        margin: auto;
-        width: 100%;
-        position: static;
+        width: 90%;
+        margin-left: 40px;
     }
     .paragraph {
         clear: both;
@@ -610,9 +615,11 @@ input[type=submit] {
     
     }
     .thin-blue {
-        width: 100%;
+        width: 634px;
     }
     .footer-div {
-        width: 100%;
+        width: 640px;
+        margin: 0px;
+
     }
 }
